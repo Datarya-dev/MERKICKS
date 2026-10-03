@@ -1,0 +1,35 @@
+# Generated output and dependencies
+/dist/
+/node_modules/
+/.wrangler/
+/.cache/
+
+# Source imports, internal reviews and local working files
+/source-assets/
+/review/
+/work/
+/checkpoints/
+/data/import-report.json
+/scripts/optimize-images.py
+*.log
+*.tmp
+*.bak
+*.zip
+*.7z
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

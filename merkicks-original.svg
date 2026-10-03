@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280" role="img" aria-labelledby="title desc">
+  <title id="title">MERKICKS — logo vectorial</title>
+  <desc id="desc">Monograma M integrado con un sneaker en dorado #ECAB0F, letras blancas trazadas y fondo negro. Recreación vectorial del concepto aprobado.</desc>
+  <defs>
+    <path id="letter-m" d="M0 124V0H30L66 49 102 0H132V124H99V53L66 97 33 53V124Z"/>
+    <path id="letter-e" d="M0 0H100V29H33V47H92V76H33V95H100V124H0Z"/>
+    <path id="letter-r" fill-rule="evenodd" d="M0 0H63C96 0 113 16 113 43 113 61 104 75 87 82L116 124H77L52 86H33V124H0ZM33 28V59H61C74 59 80 54 80 43 80 33 74 28 61 28Z"/>
+    <path id="letter-k" d="M0 0H33V48L75 0H115L64 58 119 124H78L33 70V124H0Z"/>
+    <path id="letter-i" d="M0 0H34V124H0Z"/>
+    <path id="letter-c" d="M114 13 98 40C88 32 77 28 64 28 43 28 32 42 32 62S43 96 64 96C77 96 88 92 98 84L114 111C100 122 83 127 64 127 23 127-2 102-2 62S23-3 64-3C83-3 100 2 114 13Z"/>
+    <path id="letter-s" d="M107 10 95 37C81 30 68 27 54 27 41 27 35 31 35 37 35 43 42 46 61 50 96 57 112 68 112 88 112 113 91 127 56 127 34 127 14 122-1 112L12 84C25 93 41 98 57 98 71 98 79 95 79 89 79 83 71 80 50 76 17 69 2 58 2 38 2 13 23-3 55-3 75-3 93 1 107 10Z"/>
+  </defs>
+  <rect id="background" width="1280" height="1280" fill="#000000"/>
+  <g id="emblem" fill="#ECAB0F">
+    <path id="monogram-m" d="M243 290H342L563 461 604 439Q620 429 636 442L705 494 683 526 622 479 570 514 347 415V575L267 677H392L424 708H991Q1011 708 1019 720L1008 741H410L384 716H236L243 290ZM680 467 911 290H1010V650L943 626V415L729 516Z"/>
+    <path id="shoe-upper" d="M246 698 289 568Q300 535 326 554L381 594Q435 623 493 584L561 531Q536 583 470 605 415 627 363 593L323 571 279 670H391Q401 670 410 680L430 700H977Q986 700 983 691 978 681 955 674L820 638Q805 634 798 622L786 603 807 584 827 611 966 650Q1016 665 1026 693L1034 726Q1043 763 1004 775H261Q223 775 230 742L237 708H265L259 740Q258 748 271 748H995Q1007 748 1009 738L1010 728H420L390 698Z"/>
+    <path id="lace-one" d="M725 519 758 542 716 573Q705 581 695 574L689 570Q682 564 691 556Z"/>
+    <path id="lace-two" d="M776 555 807 577 766 606Q757 613 747 607L739 601Q732 595 741 587Z"/>
+    <path id="lace-three" d="M823 587 849 607Q859 615 848 623L818 642Q809 648 800 641L791 634Q785 628 793 619Z"/>
+  </g>
+  <g id="wordmark" fill="#FFFFFF" transform="translate(164 833)">
+    <use href="#letter-m"/>
+    <use href="#letter-e" x="148"/>
+    <use href="#letter-r" x="264"/>
+    <use href="#letter-k" x="396"/>
+    <use href="#letter-i" x="528"/>
+    <use href="#letter-c" x="578"/>
+    <use href="#letter-k" x="710"/>
+    <use href="#letter-s" x="842"/>
+  </g>
+</svg>
