@@ -12,22 +12,15 @@ npm run check
 npm run dev
 ```
 
-Abre `http://127.0.0.1:4173`. El servidor local solo sirve la carpeta generada `dist/`.
+Abre `http://127.0.0.1:4173/MERKICKS/`. El servidor local sirve la carpeta generada `dist/` bajo el mismo prefijo que GitHub Pages.
 
-## Cloudflare Pages
+## GitHub Pages
 
-Conecta este repositorio como proyecto Pages y usa:
+La URL pública prevista es `https://datarya-dev.github.io/MERKICKS/`. El workflow `.github/workflows/pages.yml` genera `dist/`, comprueba las 212 fichas y publica el artefacto en cada push a `main`.
 
-| Campo | Valor |
-| --- | --- |
-| Production branch | `main` |
-| Framework preset | `None` |
-| Root directory | raíz del repositorio |
-| Build command | `npm run build` |
-| Build output directory | `dist` |
-| Node.js | versión 20 o posterior |
+En **Settings → Pages → Build and deployment → Source**, selecciona **GitHub Actions** si GitHub aún no lo ha habilitado. El repositorio privado necesita un plan de GitHub que admita Pages privadas. No es necesario configurar una rama `gh-pages` ni publicar `dist/` en Git.
 
-No hay secretos ni variables obligatorias para el primer despliegue. Una vez conocida la URL definitiva, define `SITE_ORIGIN` con la URL HTTPS completa sin barra final (por ejemplo, `https://ejemplo.pages.dev`) en las variables de entorno de producción de Pages. El build generará las URL canónicas, metadatos Open Graph completos y `sitemap.xml`. Después, vuelve a desplegar.
+`SITE_ORIGIN` está definido en el workflow con la URL pública prevista; `site.config.json` contiene la misma URL como valor local. El generador crea canonical URLs, metadatos Open Graph y `sitemap.xml` bajo `/MERKICKS/`.
 
 No publiques la carpeta `public/` directamente: contiene solo los recursos base. `npm run build` genera `dist/` con la portada, todas las fichas y los recursos.
 
